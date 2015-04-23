@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/supersized.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+	<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css" /></noscript>
+    </head>
+    <body id="register">
+        <center>
+        <div class="page-container">
+            <form method="post" action="Register.jsp">
+                        <h1>Register</h1><br>
+                        <input type="text" name="login_id" placeholder="Login ID" /><br>
+                        <input type="password" name="password" placeholder="Password" /><br>
+                        <input type="password" name="cpassword" placeholder="Re-enter Password" /><br>
+                        <select name="security_question">
+                          <option>Security Question</option>
+                          <option  value="What is your pet's name?">  What is your pet's name? </+option>
+                          <option value="What is your fav. book?"> What is your favorite book? </option>
+                          <option value="What is your friends's name?"> What is your friends's name? </option>
+                        </select><br>
+                        <input type="text" name="security_answer" placeholder="Security Answer" /><br>
+                        <input type="text" name="first_name" placeholder="First Name" /><br>
+                        <input type="text" name="middle_name" placeholder="Middle Name" /><br>
+                        <input type="text" name="last_name" placeholder="Last Name" /><br>
+                        <input type="text" name="rollno" placeholder="Roll Number" /><br>
+                        <input type="text" name="date_of_birth" placeholder="Birth Date" /><br>
+                        <select name="branch">
+                          <option>Branch</option>
+                          <option  value="CSE">CSE</option>
+                          <option value="CCE">CCE</option>
+                          <option value="ECE">ECE</option>
+                          <option value="MME">MME</option>
+                        </select><br>
+                        <select name="gender">
+                          <option>Gender</option>
+                          <option  value="Male">M</option>
+                          <option value="Female">F</option>
+                        </select><br>
+                        
+                        <input type="text" name="mobileno" placeholder="Mobile Number" /><br>
+                        <select name="house">
+                          <option>House Name</option>
+                          <option  value="Agni">Agni</option>
+                          <option value="Aakash">Aakash</option>
+                          <option value="Prithvi">Prithvi</option>
+                          <option value="Vaayu">Vaayu</option>
+                        </select><br>
+                        <input type="text" name="home_town" placeholder="Home Town" /><br>
+                        <input type="text" name="about" placeholder="About Me" /><br>
+                        <input type="text" name="hostel" placeholder="Hostel" /><br>
+                        <input type="text" name="education" placeholder="Education" /><br>
+                        <button type="submit">Submit</button>
+                        <button type="reset" id="bottom" >Reset</button>
+            </form>
+            <a href="index.html"><button >Already a member.Sign In</button></a><br>
+        </div>
+    </center>
+    </body>
+</html>
